@@ -1,1 +1,1 @@
-[→️](/grid) Check if your browser supports grid layout
+[→️](/grid/index.md) Check if your browser supports grid layout
