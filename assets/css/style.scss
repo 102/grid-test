@@ -1,9 +1,13 @@
-.grid-support::before {
-  content: "Your browser doesn't support grid layout";
+.grid-support {
+  &:before {
+    content: "Your browser doesn't support grid layout";
+  }
 }
 
 @supports (display: grid) {
-  .grid-support::before {
-    content: "Your browser supports grid layout";
+  .grid-support {
+    &:before {
+      content: "Your browser supports grid layout";
+    }
   }
 }
