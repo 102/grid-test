@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    nodejs 'stable'
+    nodejs 'LTS'
   }
   stages {
     stage('') {
