@@ -4,7 +4,8 @@ pipeline {
     stage('') {
       steps {
         sh 'echo "Testing"'
-        node 'console.log("testing from node")'
+        sh 'node --version'
+        sh 'npm --version'
       }
     }
   }
