@@ -1,14 +1,1 @@
----
----
 
-@import "{{ site.theme }}";
-
-.grid-support {
-  &:before {
-    content: "Your browser doesn't support grid layout";
-    
-    @supports (display: grid) {
-      content: "Your browser supports grid layout";
-    }
-  }
-}
